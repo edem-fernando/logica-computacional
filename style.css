@@ -1,0 +1,95 @@
+.header {
+    margin: 50px 0px; 
+    width: 100%;
+    text-align: center;
+}
+
+main { 
+    margin: 50px 40px;
+    padding: 40px 40px;
+}
+
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 10px;
+}
+
+main > section > header {
+    flex: 100%;
+    text-align: center;
+}
+
+main > form {
+    flex-basis: 50%;
+}
+
+form > select {
+    padding: 10px 30px;
+    background: none;
+    font-size: 1.2em;
+}
+
+form > button {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: none;
+    padding: 15px 15px;
+    background: #007BFF;
+    color: #FFF;
+    font-size: 1.2em;
+    margin: 0px 10px;
+}
+
+form > button:hover {
+    cursor: pointer;
+    background: #87CEEB;
+}
+
+.table_result {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+th { padding: 20px 40px;}
+
+footer { 
+    margin: 10px 40px;
+    padding: 0px 40px; 
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer > header {
+    flex: 100%;
+}
+
+.footer_members{
+    flex-basis: 50%;
+}
+
+.footer_rigths {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header > h1 { font-size: 2em; }
+
+.header > p { font-size: 1.4em; }

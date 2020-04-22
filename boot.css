@@ -1,0 +1,12 @@
+nav ul li { list-style: none; }
+
+a { text-decoration: none; }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px 0px;
+    background: #F0EFE7;
+}
+
+table, th { border: 1px solid #ccc; }

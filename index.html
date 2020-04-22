@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lógica - Computacional</title>
+        <link rel="stylesheet" href="source/css/boot.css">
+        <link rel="stylesheet" href="source/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div>
+                <h1>A tabela da verdade</h1>
+            </div>
+            <p>Entenda um dos conceitos básicos da lógica, a tabela da verdade.</p>
+        </header>
+
+        <main>
+            <section>
+                <header>
+                    <h1>Brinque um pouco.</h1>
+                </header>
+                
+                <form>
+                    <p>Escolha o operador e realize o teste na tabela de verdade.</p>
+                    <select id="operadores">
+                        <option value="clear">Limpar tabela</option>
+                        <option value="and">Operador (AND)</option>
+                        <option value="or">Operador (OR)</option>
+                        <option value="se_somente_se">Se e somente se (<->) </option>
+                        <option value="entao">Então(->)</option>
+                    </select>
+                </form>
+
+                <article class="table_result">
+                    <header>
+                        <h2>Resultado</h2>
+                    </header>
+
+                    <table class="table">
+                        <tr>
+                            <th>q</th>
+                            <th>p</th>
+                            <th class='result_consulta'>p operador q</th>
+                        </tr>
+                    
+                    </table>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <header>
+                <h1>Componentes da equipe</h1>
+            </header>
+
+            <article class="footer_members">
+                <header>
+                    <h2>Edem Fernando Bastos Castro</h2>
+                </header>
+            </article>
+
+            <article class="footer_members">
+                <header>
+                    <h2>Jean Gabriel Rodrigues Araújo</h2>
+                </header>
+            </article>
+        </footer>
+
+        <div class="footer_rigths">
+            <p><b>Todos os direitos reservados aos membros do grupo ®.</b></p>
+        </div>
+
+        <script src="source/script/jquery.js"></script>
+        <script src="source/script/script.js"></script>
+    </body>
+</html>
